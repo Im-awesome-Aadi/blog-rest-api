@@ -25,7 +25,11 @@ app.use((req,res,next)=>{
 app.use('/feed', feedRoutes);
 app.use('/', postRoutes);
 app.use('/auth', authRoutes);
-
+app.use('/',(req,res,next)=>{
+    return res.status(404).json({
+        message : "Page not found"
+    })
+})
 mongoConnect(()=>{
     app.listen(process.env.PORT || 3000 ,()=>{
         console.log("Started at port 8080")
