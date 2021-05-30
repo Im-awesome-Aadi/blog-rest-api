@@ -1,0 +1,8 @@
+{
+    "env":{
+        "MONGO_USER":"Aditya",
+        "MONGO_PASSWORD":"Aditya",
+        "DATABASE":"animes",
+        "PORT":3000
+    }
+}
