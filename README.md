@@ -200,7 +200,7 @@ JWT token is received while logging-in by `POST/auth/login route`
     "message": "Deleted successfully"
 }`
 
-Any endpoints other than mentioned above will produce the below shown resposne.
+Any endpoints other than mentioned above will produce the below shown response. <br/>
 `{
     "message": "Page not found"
 }`
