@@ -9,9 +9,9 @@ This API includes server side validation and authentication using JWT token.
 After signing-up with email-ID and choosing an user name, user's email-ID, name and password (hashed password) is stored in the database (MongoDB is used). As a user, you can create,read, edit and delete the posts. And obviously one can delete or edit his own posts.
 Posts created by one users is visible to all, but can only be edited/deleted by the owner of that post.
 
-Kindly let me know if you are looking for building front-end for this API. I am happy to make changes as per front-end requirements.
 
-I have already hosted this API [here](https://anime-aadi.herokuapp.com/feed)
+
+
 
 Now, lets see the endpoints of this API.
 
